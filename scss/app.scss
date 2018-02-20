@@ -16,6 +16,10 @@ $fa-font-path: "./webfonts";
   padding: 0;
 }
 
+.logo {
+  background: theme-color("primary");
+}
+
 .header {
   background-image: url('../imgs/BlanksDraft1-2.jpg');
   background-size: cover;
