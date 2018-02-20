@@ -1,0 +1,51 @@
+
+$theme-colors: (
+  "primary": #657480,
+  "secondary": #10202F,
+);
+
+$enable-rounded: false;
+$fa-font-path: "./webfonts";
+
+@import "node_modules/bootstrap/scss/bootstrap";
+@import "scss/fontawesome/fontawesome";
+@import "scss/fontawesome/fa-brands";
+
+.img-thumbnail {
+  border: 0;
+  padding: 0;
+}
+
+.header {
+  background-image: url('../imgs/BlanksDraft1-2.jpg');
+  background-size: cover;
+  height: 80vh;
+  background-position: 50% 100%;
+}
+
+.listen {
+  @extend .py-5;
+}
+
+.watch {
+  background: theme-color("primary");
+  @extend .pt-5;
+}
+
+.watch .video {
+  @extend .pb-5;
+}
+
+.contact {
+  background: theme-color("primary");
+  color: #fff;
+  @extend .py-5;
+  a {
+    color: #fff;
+  }
+}
+
+.links {
+  text-align: center;
+  @extend .py-3;
+}
