@@ -14,10 +14,19 @@ $fa-font-path: "./webfonts";
 .img-thumbnail {
   border: 0;
   padding: 0;
+  background: transparent;
 }
 
 .logo {
   background: theme-color("primary");
+
+  img {
+    height: 100px;
+    margin-top: 4px;
+    margin-right: 14px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+  }
 }
 
 .header {
@@ -41,12 +50,7 @@ $fa-font-path: "./webfonts";
 }
 
 .contact {
-  background: theme-color("primary");
-  color: #fff;
-  @extend .py-5;
-  a {
-    color: #fff;
-  }
+  @extend .py-3;
 }
 
 .links {
