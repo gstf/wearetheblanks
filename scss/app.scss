@@ -22,19 +22,23 @@ $fa-font-path: "./webfonts";
 
   img {
     height: 100px;
-    margin-top: 4px;
     margin-right: 14px;
-    margin-bottom: 40px;
-    margin-top: 40px;
+    margin-bottom: 10px;
+    margin-top: 10px;
   }
 }
 
-.header {
-  background-image: url('../imgs/BlanksDraft1-2.jpg');
-  background-size: cover;
-  height: 80vh;
-  background-position: 50% 100%;
+@include media-breakpoint-up(md) {
+  .logo {
+    img {
+      height: 100px;
+      margin-right: 14px;
+      margin-bottom: 40px;
+      margin-top: 40px;
+    }
+  }
 }
+
 
 .listen {
   @extend .py-5;
