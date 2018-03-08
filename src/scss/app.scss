@@ -61,3 +61,33 @@ $fa-font-path: "./webfonts";
   text-align: center;
   @extend .py-3;
 }
+
+#bandcamp-player iframe {
+  border: 0;
+  margin: 0 auto 1em auto;
+  display: block;
+  width: 280px;
+  height: 480px;
+}
+
+@include media-breakpoint-up(md) {
+  #bandcamp-player iframe {
+    width: 600px;
+    height: 828px;
+  }
+}
+
+#bandcamp-player-exclusive iframe {
+  border: 0;
+  margin: 0 auto 1em auto;
+  display: block;
+  width: 280px;
+  height: 830px;
+}
+
+@include media-breakpoint-up(md) {
+  #bandcamp-player-exclusive iframe {
+    width: 500px;
+    height: 1030px;
+  }
+}
