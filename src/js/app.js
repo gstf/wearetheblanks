@@ -17,6 +17,6 @@ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
 if (location.hostname !== 'localhost' && location.hostname !== '127.0.0.1') {
-  ga('create', 'UA-114748144-1', 'auto');
+  ga('create', 'UA-114748144-2', 'auto');
   ga('send', 'pageview');
 }
