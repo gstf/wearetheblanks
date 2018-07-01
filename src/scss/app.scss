@@ -91,3 +91,30 @@ $fa-font-path: "./webfonts";
     height: 1030px;
   }
 }
+
+
+blockquote {
+  font-style: italic;
+  margin-bottom: 0;
+  text-align: center;
+
+  p:last-child:before{
+    content: open-quote;
+  }
+
+  p:last-child:after{
+    content: close-quote;
+  }
+
+  p:last-child {
+    margin-bottom: 0;
+  }
+}
+
+cite {
+  margin-bottom: 2em;
+  text-align: right;
+  display: block;
+  font-style: normal;
+  text-align: center;
+}
